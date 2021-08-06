@@ -1,0 +1,22 @@
+{% extends 'accounts/base.html' %}
+
+<title>{% block title %}Products{% endblock title %}</title>
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md">
+        <h5>Customer</h5>
+        <hr>
+        <div class="card card-body">
+            <table class="table table-sm">
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock content %}
